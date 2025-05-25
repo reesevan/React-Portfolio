@@ -1,0 +1,20 @@
+ src/components/MainContent.css 
+
+main {
+    width: 100%;
+    padding: 20px; /* Optional: Add some padding for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+main {
+    text-align: left; /* Aligns text to the left */
+}
+main {
+    background-color: #111111; /* Light gray background */
+}
+@media (max-width: 768px) {
+    main {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+}
+
